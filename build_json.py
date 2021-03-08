@@ -3,7 +3,6 @@ import re
 import sys
 import json
 import tweepy
-import pathlib
 import requests
 
 def twitter_authentication():
@@ -34,11 +33,9 @@ def read_json_file(filename):
 	jsonFile.close()
 	return data
 
-def modify_json_file(filename, oldData, data):
-	for d in data:
-		oldData.append(d)
+def modify_json_file(filename, data):
 	jsonFile = open(filename, "w+")
-	jsonFile.write(json.dumps(oldData, indent=4))
+	jsonFile.write(json.dumps(data, indent=4))
 	jsonFile.close()
 
 def fetch_blog_posts(link):
@@ -64,4 +61,4 @@ if __name__ == "__main__":
 	data, twitter_data = compare_data(oldData, newData)
 	api = twitter_authentication()
 	tweet(api, twitter_data)
-	modify_json_file(filename, oldData, data)
+	modify_json_file(filename, data)
