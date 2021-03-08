@@ -26,6 +26,11 @@ jobs:
       run: |-
         python build_json.py
         cat blog_links.json
+      env:
+        CONSUMER_KEY: ${{secrets.CONSUMER_KEY}}
+        CONSUMER_SECRET: ${{secrets.CONSUMER_SECRET}}
+        ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+        ACCESS_TOKEN_SECRET: ${{secrets.ACCESS_TOKEN_SECRET}}
     - name: Commit and push if changed
       run: |-
         git diff
