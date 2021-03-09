@@ -34,9 +34,10 @@ def read_json_file(filename):
 	return data
 
 def modify_json_file(filename, data):
-	jsonFile = open(filename, "w+")
-	jsonFile.write(json.dumps(data, indent=4))
-	jsonFile.close()
+	if len(data) != 0:
+		jsonFile = open(filename, "w+")
+		jsonFile.write(json.dumps(data, indent=4))
+		jsonFile.close()
 
 def fetch_blog_posts(link):
 	result = []
