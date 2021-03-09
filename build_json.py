@@ -16,16 +16,14 @@ def tweet(api, data):
 		api.update_status('{}.\n{}\n{}'.format(d['title'], categories, d['link']))
 
 def compare_data(oldData, newData):
-	data = []
 	twitter_data = []
 	last_pub_date = oldData[-1]['pubDate']
 	for nD in newData:
 		if nD['pubDate'] > last_pub_date:
-			data.insert(0, {"title": nD['title'], "link": nD['link'], "pubDate": nD['pubDate']})
 			twitter_data.insert(0, {"title": nD['title'], "link": nD['link'], "pubDate": nD['pubDate'], "categories": nD['categories']})
 		else:
 			break
-	return data, twitter_data
+	return twitter_data
 
 def read_json_file(filename):
 	jsonFile = open(filename, "r")
@@ -59,7 +57,7 @@ if __name__ == "__main__":
 
 	newData = fetch_blog_posts(blog_link)
 	oldData = read_json_file(filename)
-	data, twitter_data = compare_data(oldData, newData)
+	twitter_data = compare_data(oldData, newData)
 	api = twitter_authentication()
 	tweet(api, twitter_data)
-	modify_json_file(filename, data)
+	modify_json_file(filename, twitter_data)
