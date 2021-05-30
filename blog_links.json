@@ -1,14 +1,14 @@
 [
     {
-        "title": "Sorting Algorithm: Bubble Sort",
-        "link": "https://medium.com/logic-gates/sorting-algorithm-bubble-sort-6d4c3ac9ea8d?source=rss-4430950b9342------2",
-        "pubDate": "2021-05-26 06:22:49",
+        "title": "Sorting Algorithm: Selection Sort",
+        "link": "https://medium.com/logic-gates/sorting-algorithm-selection-sort-eb0993f4076e?source=rss-4430950b9342------2",
+        "pubDate": "2021-05-30 07:30:03",
         "categories": [
+            "programming",
+            "java",
             "algorithms",
             "software-engineering",
-            "data-science",
-            "java",
-            "programming"
+            "data-science"
         ]
     }
 ]
