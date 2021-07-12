@@ -1,14 +1,14 @@
 [
     {
-        "title": "Essential Git Commands Every Programmer Should Know",
-        "link": "https://towardsdatascience.com/essential-git-commands-every-programmer-should-know-fe96feb570ce?source=rss-4430950b9342------2",
-        "pubDate": "2021-07-04 17:45:28",
+        "title": "How to Dockerize an Existing Sinatra Application",
+        "link": "https://towardsdatascience.com/how-to-dockerize-an-existing-sinatra-application-3a6943d7a428?source=rss-4430950b9342------2",
+        "pubDate": "2021-07-11 17:32:14",
         "categories": [
-            "git",
-            "github",
+            "ruby",
             "programming",
-            "software-development",
-            "technology"
+            "data-science",
+            "docker",
+            "software-engineering"
         ]
     }
 ]
