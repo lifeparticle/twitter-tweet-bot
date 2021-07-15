@@ -1,14 +1,14 @@
 [
     {
-        "title": "How to Dockerize an Existing Sinatra Application",
-        "link": "https://towardsdatascience.com/how-to-dockerize-an-existing-sinatra-application-3a6943d7a428?source=rss-4430950b9342------2",
-        "pubDate": "2021-07-11 17:32:14",
+        "title": "How To Dockerize an Existing Ruby on Rails Application",
+        "link": "https://towardsdatascience.com/how-to-dockerize-an-existing-ruby-on-rails-application-3eb6d16ec392?source=rss-4430950b9342------2",
+        "pubDate": "2021-07-14 13:47:36",
         "categories": [
-            "ruby",
+            "ruby-on-rails",
+            "software-engineering",
             "programming",
-            "data-science",
             "docker",
-            "software-engineering"
+            "ruby"
         ]
     }
 ]
