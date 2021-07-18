@@ -1,14 +1,14 @@
 [
     {
-        "title": "How To Dockerize an Existing Ruby on Rails Application",
-        "link": "https://towardsdatascience.com/how-to-dockerize-an-existing-ruby-on-rails-application-3eb6d16ec392?source=rss-4430950b9342------2",
-        "pubDate": "2021-07-14 13:47:36",
+        "title": "The Complete Guide to Docker Volumes",
+        "link": "https://towardsdatascience.com/the-complete-guide-to-docker-volumes-1a06051d2cce?source=rss-4430950b9342------2",
+        "pubDate": "2021-07-17 17:58:35",
         "categories": [
-            "ruby-on-rails",
-            "software-engineering",
             "programming",
             "docker",
-            "ruby"
+            "devops",
+            "technology",
+            "software-engineering"
         ]
     }
 ]
