@@ -1,14 +1,14 @@
 [
     {
-        "title": "12 Essential Docker Commands You Should Know",
-        "link": "https://towardsdatascience.com/12-essential-docker-commands-you-should-know-c2d5a7751bb5?source=rss-4430950b9342------2",
-        "pubDate": "2021-07-25 03:17:59",
+        "title": "How To Manage Multiple Python Versions",
+        "link": "https://python.plainenglish.io/how-to-manage-multiple-python-versions-f0da7a9b6603?source=rss-4430950b9342------2",
+        "pubDate": "2021-08-03 15:38:27",
         "categories": [
+            "productivity",
             "programming",
-            "devops",
-            "mysql",
-            "docker",
-            "software-engineering"
+            "python",
+            "software-development",
+            "data-science"
         ]
     }
 ]
