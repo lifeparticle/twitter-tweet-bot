@@ -1,14 +1,14 @@
 [
     {
-        "title": "How To Dockerize an Existing React Application",
-        "link": "https://towardsdatascience.com/how-to-dockerize-an-existing-react-application-c27bd8517dcb?source=rss-4430950b9342------2",
-        "pubDate": "2021-08-06 13:10:30",
+        "title": "How To Parse Data Using Ruby and Selenium",
+        "link": "https://towardsdatascience.com/how-to-parse-data-using-ruby-and-selenium-5cf11605340c?source=rss-4430950b9342------2",
+        "pubDate": "2021-08-25 12:17:50",
         "categories": [
-            "docker",
-            "technology",
-            "react",
             "software-engineering",
-            "programming"
+            "selenium",
+            "testing",
+            "programming",
+            "technology"
         ]
     }
 ]
