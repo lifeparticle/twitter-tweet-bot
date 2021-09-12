@@ -1,14 +1,14 @@
 [
     {
-        "title": "How To Parse Data Using Ruby and Selenium",
-        "link": "https://towardsdatascience.com/how-to-parse-data-using-ruby-and-selenium-5cf11605340c?source=rss-4430950b9342------2",
-        "pubDate": "2021-08-25 12:17:50",
+        "title": "How To Create a Docker Image From a Container",
+        "link": "https://python.plainenglish.io/how-to-create-a-docker-image-from-a-container-402f70f3dbf0?source=rss-4430950b9342------2",
+        "pubDate": "2021-09-11 09:13:13",
         "categories": [
+            "python",
+            "technology",
             "software-engineering",
-            "selenium",
-            "testing",
             "programming",
-            "technology"
+            "docker"
         ]
     }
 ]
