@@ -1,14 +1,14 @@
 [
     {
-        "title": "How To Create a Docker Image From a Container",
-        "link": "https://python.plainenglish.io/how-to-create-a-docker-image-from-a-container-402f70f3dbf0?source=rss-4430950b9342------2",
-        "pubDate": "2021-09-11 09:13:13",
+        "title": "How To Parse Data Using Python and Selenium",
+        "link": "https://towardsdatascience.com/how-to-parse-data-using-python-and-selenium-907a95239ee0?source=rss-4430950b9342------2",
+        "pubDate": "2021-09-13 14:03:04",
         "categories": [
-            "python",
-            "technology",
             "software-engineering",
+            "selenium",
             "programming",
-            "docker"
+            "python",
+            "data-science"
         ]
     }
 ]
