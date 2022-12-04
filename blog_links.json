@@ -1,14 +1,14 @@
 [
     {
-        "title": "How to Deploy a React Application to Render",
-        "link": "https://javascript.plainenglish.io/how-to-deploy-a-react-application-to-render-611ef3aca84a?source=rss-4430950b9342------2",
-        "pubDate": "2022-11-25 06:17:55",
+        "title": "How to Create and Connect to a PostgreSQL Database With Render and pgAdmin",
+        "link": "https://medium.com/geekculture/how-to-create-and-connect-to-a-postgresql-database-with-render-and-pgadmin-577b326fd19d?source=rss-4430950b9342------2",
+        "pubDate": "2022-12-03 19:01:37",
         "categories": [
-            "react",
+            "database",
             "programming",
-            "software-engineering",
-            "javascript",
-            "technology"
+            "software-development",
+            "technology",
+            "postgres"
         ]
     }
 ]
