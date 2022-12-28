@@ -1,14 +1,14 @@
 [
     {
-        "title": "How to Create and Connect to a PostgreSQL Database With Render and pgAdmin",
-        "link": "https://medium.com/geekculture/how-to-create-and-connect-to-a-postgresql-database-with-render-and-pgadmin-577b326fd19d?source=rss-4430950b9342------2",
-        "pubDate": "2022-12-03 19:01:37",
+        "title": "How to Deploy a Flask Application to Render",
+        "link": "https://python.plainenglish.io/how-to-deploy-a-flask-application-to-render-2a70e4d55919?source=rss-4430950b9342------2",
+        "pubDate": "2022-12-27 12:27:14",
         "categories": [
-            "database",
-            "programming",
             "software-development",
+            "programming",
             "technology",
-            "postgres"
+            "python",
+            "flask"
         ]
     }
 ]
