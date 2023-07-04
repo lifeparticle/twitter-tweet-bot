@@ -1,14 +1,14 @@
 [
     {
-        "title": "3 Critical Lessons Programmers Can Learn From the FutureStack Tech Conference",
-        "link": "https://levelup.gitconnected.com/3-critical-lessons-programmers-can-learn-from-the-futurestack-tech-conference-4188c14edb11?source=rss-4430950b9342------2",
-        "pubDate": "2023-02-16 13:24:32",
+        "title": "How To Deploy a React Application to GitHub Pages",
+        "link": "https://javascript.plainenglish.io/how-to-deploy-a-react-application-to-github-pages-e4f8890e1213?source=rss-4430950b9342------2",
+        "pubDate": "2023-06-30 10:17:53",
         "categories": [
-            "observability",
-            "monitoring",
-            "programming",
-            "devops",
-            "engineering"
+            "github-actions",
+            "github-pages",
+            "javascript",
+            "react",
+            "software-development"
         ]
     }
 ]
