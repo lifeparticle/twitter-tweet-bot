@@ -34,7 +34,8 @@ def tweet(api, data):
         categories = " ".join(
             ["#" + category.replace("-", "") for category in d["categories"]]
         )
-        api.create_tweet("{}.\n{}\n{}".format(d["title"], categories, d["link"]))
+        tweet_text = "{}.\n{}\n{}".format(d["title"], categories, d["link"])
+        api.create_tweet(text=tweet_text)
 
 
 def compare_data(oldData, newData):
