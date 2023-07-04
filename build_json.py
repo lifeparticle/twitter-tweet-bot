@@ -17,7 +17,8 @@ def twitter_authentication():
     #     access_token_secret=os.environ["ACCESS_TOKEN_SECRET"],
     # )
 
-    auth = tweepy.OAuth2BearerHandler(os.environ['BEARER_TOKEN'])
+    # auth = tweepy.OAuth2BearerHandler(os.environ['BEARER_TOKEN'])
+    auth = tweepy.OAuth2AppHandler(os.environ['CONSUMER_KEY'], os.environ['CONSUMER_SECRET'])
     return tweepy.API(auth)
 
 
