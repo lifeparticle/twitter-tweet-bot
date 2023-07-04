@@ -13,7 +13,7 @@ def twitter_authentication():
 def tweet(api, data):
 	for d in data:
 		categories = ' '.join(["#" + category.replace("-", "") for category in d['categories']])
-		api.update_status('{}.\n{}\n{}'.format(d['title'], categories, d['link']))
+		api.create_tweet('{}.\n{}\n{}'.format(d['title'], categories, d['link']))
 
 def compare_data(oldData, newData):
 	twitter_data = []
