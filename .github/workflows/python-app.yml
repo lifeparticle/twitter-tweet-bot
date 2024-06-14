@@ -1,4 +1,4 @@
-name: Build Json
+name: Build JSON
 
 on:
   push:
