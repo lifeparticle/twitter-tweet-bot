@@ -5,7 +5,6 @@ import json
 import tweepy
 import requests
 
-
 def twitter_authentication():
     return tweepy.Client(
         bearer_token=os.environ["BEARER_TOKEN"],
@@ -15,7 +14,6 @@ def twitter_authentication():
         consumer_secret=os.environ["CONSUMER_SECRET"],
     )
 
-
 def tweet(api, data):
     for d in data:
         categories = " ".join(
@@ -23,7 +21,6 @@ def tweet(api, data):
         )
         tweet_text = "{}.\n{}\n{}".format(d["title"], categories, d["link"])
         api.create_tweet(text=tweet_text)
-
 
 def compare_data(oldData, newData):
     twitter_data = []
@@ -43,20 +40,17 @@ def compare_data(oldData, newData):
             break
     return twitter_data
 
-
 def read_json_file(filename):
     jsonFile = open(filename, "r")
     data = json.load(jsonFile)
     jsonFile.close()
     return data
 
-
 def modify_json_file(filename, data):
     if len(data) != 0:
         jsonFile = open(filename, "w+")
         jsonFile.write(json.dumps(data, indent=4))
         jsonFile.close()
-
 
 def fetch_blog_posts(link):
     result = []
@@ -70,7 +64,6 @@ def fetch_blog_posts(link):
     elif response.status_code == 404:
         print("Not Found: ") + link
     return result
-
 
 if __name__ == "__main__":
     filename = "blog_links.json"
