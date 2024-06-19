@@ -1,14 +1,14 @@
 [
     {
-        "title": "How to Navigate Your Software Development Career",
-        "link": "https://levelup.gitconnected.com/how-to-navigate-your-software-development-career-b2f05f398672?source=rss-4430950b9342------2",
-        "pubDate": "2024-03-11 02:11:14",
+        "title": "How to Make HTTP Requests in a Tauri Desktop App Using JavaScript Fetch",
+        "link": "https://levelup.gitconnected.com/how-to-make-http-requests-in-a-tauri-desktop-app-using-javascript-fetch-0820dc39271b?source=rss-4430950b9342------2",
+        "pubDate": "2024-06-03 15:56:47",
         "categories": [
-            "programming",
-            "coding",
+            "javascript",
             "software-development",
-            "technology",
-            "self-improvement"
+            "desktop-app",
+            "react",
+            "tauri"
         ]
     }
 ]
